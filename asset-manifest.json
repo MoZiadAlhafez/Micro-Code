@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Micro-Code/static/css/main.90424c52.chunk.css",
+    "main.js": "/Micro-Code/static/js/main.e4e95333.chunk.js",
+    "main.js.map": "/Micro-Code/static/js/main.e4e95333.chunk.js.map",
+    "runtime-main.js": "/Micro-Code/static/js/runtime-main.81122787.js",
+    "runtime-main.js.map": "/Micro-Code/static/js/runtime-main.81122787.js.map",
+    "static/js/2.d49bc7aa.chunk.js": "/Micro-Code/static/js/2.d49bc7aa.chunk.js",
+    "static/js/2.d49bc7aa.chunk.js.map": "/Micro-Code/static/js/2.d49bc7aa.chunk.js.map",
+    "index.html": "/Micro-Code/index.html",
+    "precache-manifest.7bc7da58da64ea10ce775414edb0729b.js": "/Micro-Code/precache-manifest.7bc7da58da64ea10ce775414edb0729b.js",
+    "service-worker.js": "/Micro-Code/service-worker.js",
+    "static/css/main.90424c52.chunk.css.map": "/Micro-Code/static/css/main.90424c52.chunk.css.map",
+    "static/media/404.svg": "/Micro-Code/static/media/404.3c860cfd.svg",
+    "static/media/Mobile application.svg": "/Micro-Code/static/media/Mobile application.53203d09.svg",
+    "static/media/analysis.svg": "/Micro-Code/static/media/analysis.84cbab4a.svg",
+    "static/media/bug_fixing.svg": "/Micro-Code/static/media/bug_fixing.21b338b2.svg",
+    "static/media/clean code.svg": "/Micro-Code/static/media/clean code.5d88a4ac.svg",
+    "static/media/domain.svg": "/Micro-Code/static/media/domain.a9cea629.svg",
+    "static/media/goals.svg": "/Micro-Code/static/media/goals.dfb5988f.svg",
+    "static/media/html css js.svg": "/Micro-Code/static/media/html css js.5f2e49a4.svg",
+    "static/media/info.svg": "/Micro-Code/static/media/info.f3cc1d4c.svg",
+    "static/media/inspiration.svg": "/Micro-Code/static/media/inspiration.ef308b8d.svg",
+    "static/media/laravel and vue.svg": "/Micro-Code/static/media/laravel and vue.3c44e615.svg",
+    "static/media/life.svg": "/Micro-Code/static/media/life.6ddcfed1.svg",
+    "static/media/logo.svg": "/Micro-Code/static/media/logo.e674f082.svg",
+    "static/media/man1.jpg": "/Micro-Code/static/media/man1.1cbab5e2.jpg",
+    "static/media/marketing.svg": "/Micro-Code/static/media/marketing.ccd3e4df.svg",
+    "static/media/responsive.svg": "/Micro-Code/static/media/responsive.4e85951f.svg",
+    "static/media/social media.svg": "/Micro-Code/static/media/social media.5866c947.svg",
+    "static/media/under construction.svg": "/Micro-Code/static/media/under construction.c9a3a05f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81122787.js",
+    "static/js/2.d49bc7aa.chunk.js",
+    "static/css/main.90424c52.chunk.css",
+    "static/js/main.e4e95333.chunk.js"
+  ]
+}
