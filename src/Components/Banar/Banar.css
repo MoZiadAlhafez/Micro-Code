@@ -1,0 +1,12 @@
+.banar {
+  text-align: center;
+  height: 60vh;
+  background: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+/*# sourceMappingURL=Banar.css.map */

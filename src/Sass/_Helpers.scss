@@ -1,0 +1,35 @@
+@import './Variables';
+$trans: .3s;
+%TransitionBG {
+    transition: all $trans ease-in-out; 
+}
+%PaddingSections{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.card-title{
+    color: $MainColor
+}
+.card-text{
+    color: $GreyColor
+}
+.section-title{
+    margin-bottom: 50px;
+    display:inline-block;
+    color: $MainColor;
+}
+%hoverEffect{
+    transform: translateY(-20px) ;
+}
+.card{
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.moving-card{
+    @extend %TransitionBG;
+    &:hover{
+        @extend %hoverEffect
+    }
+}
+h3.h2{color: $MainColor}

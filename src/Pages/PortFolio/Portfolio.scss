@@ -1,0 +1,110 @@
+@import '../../Sass/Variables';
+@import '../../Sass/Helpers';
+
+.porfolio{
+    @extend %PaddingSections;
+    text-align: center;
+    .nav-pills, .tab-content{
+        text-align:left;
+    }
+    .card{
+        margin: 0 auto 10px auto;
+        width: 90%;
+        
+        button{
+            text-transform: capitalize;
+        }
+    }
+    .nav-pills{
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.5);  
+        overflow: hidden;
+        height: 100%;
+    }
+    .tab-content{
+        padding: 20px 10px 10px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.5);  
+    }
+    .nav-link{
+        border-radius: 0;
+        @extend %TransitionBG;
+        position: relative;
+        .badge{
+            background: $MainColor;
+            @extend %TransitionBG;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%)
+        }
+    }
+    .nav-link.active{
+        .badge{background: $WhiteColor;color: $MainColor}
+    }
+}
+
+.team{
+    @extend %PaddingSections;
+    text-align: center;
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        li{color: $MainColor; cursor: pointer;}
+    }
+    .card{
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.5);  
+        .card-body{
+            text-align: center;
+            padding: 5px;
+            .card-title{margin: 0}
+
+        }
+    }
+}
+
+.testimonials{
+    @extend %PaddingSections;
+    text-align: center;
+    .card{
+        margin-bottom: 30px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+        img{border-radius: 5px}
+        color: $GreyColor;
+        .card-footer{
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            h5{margin: 0; color: $MainColor}
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .porfolio{
+        .col-sm-3{margin-bottom: 30px}
+    }
+    .team{
+        .card{
+            margin: 0 auto 30px;
+        }
+    }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { .sm-hidden{display: none !important} }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { .md-hidden{display: none !important} }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { .lg-hidden{display: none !important} }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { .xl-hidden{display: none !important} }
+ 

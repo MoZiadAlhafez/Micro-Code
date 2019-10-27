@@ -1,0 +1,154 @@
+.porfolio .nav-link .badge, .porfolio .nav-link, .moving-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonials, .team, .porfolio {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-text {
+  color: #555;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  display: inline-block;
+  color: #007bff;
+}
+
+.moving-card:hover {
+  transform: translateY(-20px);
+}
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h3.h2 {
+  color: #007bff;
+}
+
+.porfolio {
+  text-align: center;
+}
+.porfolio .nav-pills, .porfolio .tab-content {
+  text-align: left;
+}
+.porfolio .card {
+  margin: 0 auto 10px auto;
+  width: 90%;
+}
+.porfolio .card button {
+  text-transform: capitalize;
+}
+.porfolio .nav-pills {
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  height: 100%;
+}
+.porfolio .tab-content {
+  padding: 20px 10px 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.porfolio .nav-link {
+  border-radius: 0;
+  position: relative;
+}
+.porfolio .nav-link .badge {
+  background: #007bff;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.porfolio .nav-link.active .badge {
+  background: #fff;
+  color: #007bff;
+}
+
+.team {
+  text-align: center;
+}
+.team ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team ul li {
+  color: #007bff;
+  cursor: pointer;
+}
+.team .card {
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.team .card .card-body {
+  text-align: center;
+  padding: 5px;
+}
+.team .card .card-body .card-title {
+  margin: 0;
+}
+
+.testimonials {
+  text-align: center;
+}
+.testimonials .card {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  color: #555;
+}
+.testimonials .card img {
+  border-radius: 5px;
+}
+.testimonials .card .card-footer {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.testimonials .card .card-footer h5 {
+  margin: 0;
+  color: #007bff;
+}
+
+@media (max-width: 575.98px) {
+  .porfolio .col-sm-3 {
+    margin-bottom: 30px;
+  }
+
+  .team .card {
+    margin: 0 auto 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .md-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .lg-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .xl-hidden {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=Portfolio.css.map */

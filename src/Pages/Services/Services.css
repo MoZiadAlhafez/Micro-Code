@@ -1,0 +1,131 @@
+.services .nav-tabs .nav-link, .moving-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.awesome-featuers, .version-control, .services {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-text {
+  color: #555;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  display: inline-block;
+  color: #007bff;
+}
+
+.moving-card:hover {
+  transform: translateY(-20px);
+}
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h3.h2 {
+  color: #007bff;
+}
+
+.services .nav {
+  justify-content: space-evenly;
+}
+.services .tab-content {
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.services .tab-content img {
+  width: 90%;
+}
+.services .nav-tabs {
+  border-bottom: 1px solid #007bff;
+}
+.services .nav-tabs .nav-link.active, .services .nav-tabs .nav-link:hover {
+  color: #555;
+  background-color: #fff;
+  border-color: #fff #007bff #fff #007bff;
+}
+
+.version-control .card {
+  text-align: center;
+  border: none;
+  margin-bottom: 30px;
+}
+.version-control .card i {
+  font-size: 50px;
+}
+
+.awesome-featuers {
+  text-align: center;
+}
+.awesome-featuers .media {
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.awesome-featuers .media img {
+  width: 30%;
+}
+
+@media (max-width: 575.98px) {
+  .services .nav {
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  .services .nav-tabs {
+    border: none;
+  }
+  .services .nav-tabs .nav-link {
+    font-size: 12px;
+  }
+  .services .nav-tabs .nav-link.active, .services .nav-tabs .nav-link:hover {
+    border: 1px solid #007bff;
+    border-radius: 10px;
+  }
+
+  .version-control {
+    text-align: center;
+  }
+  .version-control .text {
+    margin: 0 auto 30px;
+  }
+  .version-control .text p {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .awesome-featuers .media {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .md-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .lg-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .xl-hidden {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=Services.css.map */

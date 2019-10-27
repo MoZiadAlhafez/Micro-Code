@@ -1,0 +1,126 @@
+.moving-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.text-img-section {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-text {
+  color: #555;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  display: inline-block;
+  color: #007bff;
+}
+
+.moving-card:hover {
+  transform: translateY(-20px);
+}
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h3.h2 {
+  color: #007bff;
+}
+
+@media (max-width: 575.98px) {
+  .xs-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .md-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .lg-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .xl-hidden {
+    display: none !important;
+  }
+}
+body {
+  text-transform: capitalize;
+  font-family: "Cairo", sans-serif !important;
+}
+
+section[databg=dark] {
+  background: #eee;
+}
+
+section[databg=light] {
+  background: #fff;
+}
+
+.reset-ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.text-img-section .text h3 {
+  color: #007bff;
+}
+.text-img-section .text p {
+  color: #555;
+  line-height: 1.8;
+}
+.text-img-section .img img {
+  width: 90%;
+}
+
+@media (max-width: 575.98px) {
+  .text-img-section {
+    text-align: center;
+  }
+  .text-img-section .text {
+    margin-bottom: 30px;
+  }
+  .text-img-section .text p {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .md-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .lg-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .xl-hidden {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

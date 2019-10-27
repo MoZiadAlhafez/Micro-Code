@@ -1,0 +1,87 @@
+@import '../../Sass/Variables';
+@import '../../Sass/Helpers';
+
+.goals-section{
+    @extend %PaddingSections;
+    text-align: center;
+    .img{
+        img{
+            width: 90%;
+            margin: auto;
+            
+        }
+    }
+    .goal{
+        width: 90%;
+        margin: 15px auto;
+        
+        .media{
+            @extend %TransitionBG;
+            text-align: left;
+            align-items: center;
+            h5{color: $MainColor}
+            i{
+                font-size: 45px;
+                color: $MainColor;
+                margin-right: 15px;
+            }
+            p{color: $GreyColor}
+
+        }
+    }
+}
+
+.features{
+    @extend %PaddingSections;
+    text-align: center;
+    .card{
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+        .card-header{
+            color: $MainColor;
+            text-align: center;
+        }
+        .card-text{
+            text-align: left;
+        }
+        width: 90%;
+        margin: auto;
+        img{
+            width: 90%;
+            margin: auto;
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .goals-section{
+        .img{
+            margin: 0 auto 30px;
+        }
+        .goal{
+            margin: 0 auto 30px;
+        }
+    }
+    .features{
+        .card{
+            border-radius: 5px;
+            box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+            margin: 0 auto 30px;
+            width: 90%;
+            
+        }
+    }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { .sm-hidden{display: none !important} }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { .md-hidden{display: none !important} }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { .lg-hidden{display: none !important} }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { .xl-hidden{display: none !important} }
